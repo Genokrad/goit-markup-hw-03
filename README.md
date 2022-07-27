@@ -1,2 +1,4 @@
-# goit-markup-hw-03
-goit-markup-hw-03
+# goit-markup-hw-02
+
+Html страничка без CSS
+markup creation
