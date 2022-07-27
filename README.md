@@ -1,4 +1,4 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Html страничка без CSS
+Html страничка c CSS
 markup creation
