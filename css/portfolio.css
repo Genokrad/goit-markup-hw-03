@@ -6,6 +6,7 @@
   --gray-block-color: #2F303A;
   --team-block-color: #F5F4FA;
   --transperent-white: rgba(255, 255, 255, 0.6);
+  --border-color: #ECECEC;
 }
 
 h1,
@@ -93,6 +94,10 @@ body {
 /* HEADER */
 
 /* обертка для блока навигации */
+header {
+  border-bottom: 1px solid var(--border-color);
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
