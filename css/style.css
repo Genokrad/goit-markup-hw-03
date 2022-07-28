@@ -79,6 +79,9 @@ body {
 }
 
 /* HEADER */
+header {
+  border-bottom: 1px solid var(--border-color);
+}
 
 /* оберька для блока навигации */
 .page-header-container {
