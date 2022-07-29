@@ -47,7 +47,7 @@ html {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -98,6 +98,11 @@ header {
   border-bottom: 1px solid var(--border-color);
 }
 
+.header-positioner {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
@@ -124,8 +129,6 @@ header {
 /* Навигация */
 .site-nav {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .site-nav .select {
@@ -167,8 +170,6 @@ header {
 .email-link,
 .telephone-link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .email-link:hover,
@@ -234,10 +235,11 @@ header {
   gap: 30px;
 }
 
-.project-item a>div {
+.project-item .project-block {
   padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 20px;
   border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
