@@ -29,6 +29,22 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: currentColor;
+}
+
+address {
+  font-style: normal;
+}
+
 /* УБИРАЕМ ПОДЧЕРКИВАНИЕ */
 .decoration {
   text-decoration: none;
@@ -98,11 +114,16 @@ body {
 }
 
 /* ХЕДЕР */
+
 .header-positioner {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.header {
   border-bottom: 1px solid #ececec;
+  padding: 24px 0 25px 0;
 }
 
 /* ЛОГО */
@@ -113,7 +134,7 @@ body {
   color: #000000;
   font-family: "Raleway", sans-serif;
   display: inline-block;
-  padding: 25px 0;
+  
 }
 
 .logo .prefix-logo {
@@ -393,7 +414,7 @@ body {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   display: inline-block;
-  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
 .postfix {
